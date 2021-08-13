@@ -1,0 +1,38 @@
+body {
+  background-color: #3a3b3c;
+}
+.container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.jumbotron-fluid .container-fluid {
+	position: relative;
+	z-index: 2;
+}
+.jumbotron-fluid {
+  text-shadow: #444 0 1px 1px;
+  color: #FFF;
+  position: relative;
+  height: 40vh;
+  display: flex;
+  align-items: center;
+}
+footer {
+ width: 100%;
+ position:fixed;
+ bottom:0;
+}
+.content {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+#outer {
+  display: flex;
+  justify-content: center;
+}
